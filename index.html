@@ -9,17 +9,19 @@
 </head>
 <body>
     <h1>MY TO DO LIST</h1>
-    <div class="listSection">
-        <input type="text" id="textInput" placeholder="Write down what tasks need to be done...">
-        <button id="add-btn" onclick="addTask">Add</button>
+    <div class="inputSection">
+        <input type="text" id="textInput" placeholder="Write a task...">
+        <button id="add-btn" onclick="addTask()">&plus;</button>
     </div>
-
-        <ul class="task-list">
-            <button class="checkmark">&checkmark;</button>
-            <li id="task">Do Homework</li>
-            <li id="task"></li>
-            <li id="task"></li>
-        </ul> 
     
+    <ul class="task-list">
+        <!-- <div class="task-div">
+            <input type="checkbox" class="checkmark">
+            <input type="text" class="task">
+            <button type="submit" class="del" onclick="deleteTask()" >&cross;</button>
+        </div> -->
+        
+    </ul>
+           
 </body>
 </html>
